@@ -1,0 +1,71 @@
+#cabecalho{
+    background-color: darkcyan; 
+    background-repeat: no-repeat;
+    height: 50px;
+    color: white; 
+}
+
+.logo{
+    height: 50px;
+}
+
+@media (min-width: 576px) {
+    #cabecalho{
+        background-color: darkcyan;
+        background-repeat: no-repeat;
+        height: 50px;
+        color: white; 
+    }
+
+    .logo{
+        height: 50px;
+    }
+  }
+
+@media (min-width: 768px) {
+    #cabecalho{
+        background-color: darkcyan;
+        background-repeat: no-repeat;
+        height: 60px;
+        color: white; 
+    }
+    .logo{
+        height: 60px;
+    }
+  }
+
+@media (min-width: 992px) {
+    #cabecalho{
+        background-color: darkcyan;
+        background-repeat: no-repeat;
+        height: 75px;
+        color: white; 
+    }
+    .logo{
+        height: 75px;
+    }
+  }
+
+h3{
+ color: rgb(0, 65, 139);   
+}
+
+#rodape{
+    background-color: lightgray;
+    text-align: center;
+}
+.teste{
+    position: absolute;
+    top: -12px;
+    right: 20px;
+}
+@media not all and (max-width: 576px) {
+    .menu-abrir {
+        display:none;
+    }
+}
+@media not all and (min-width: 576px) {
+    .menu-fechar {
+        display:none;
+    }
+}

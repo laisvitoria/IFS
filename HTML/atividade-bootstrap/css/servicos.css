@@ -1,0 +1,88 @@
+#espacamento{
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+@media (min-width: 576px) {
+    #espacamento{
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+  }
+
+@media (min-width: 768px) {
+    #espacamento{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+  }
+
+@media (min-width: 992px) {
+    #espacamento{
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+  }
+
+
+
+.img{
+    width: 95%;
+    height: 40%;
+}
+
+@media (min-width: 576px) {
+    .img {
+        max-width: 250px;
+        height: 200px;
+    }
+  }
+
+@media (min-width: 768px) {
+    .img {
+        max-width: 300px;
+        height: 250px;
+    }
+  }
+
+@media (min-width: 992px) {
+    .img {
+        max-width: 400px;
+        height: 300px;
+    }
+  }
+
+@media (min-width: 1200px) {
+    .img {
+        max-width: 500px;
+        height: 400px;
+    }
+  }
+
+/* especificidades da tela produtos */
+
+.imgprod{
+    width: 95%;
+    height: 40%;
+}
+
+@media (min-width: 576px) {
+    .imgprod {
+        max-width: 150px;
+        height: 150px;
+    }
+  }
+
+@media (min-width: 768px) {
+    .imgprod {
+        max-width: 250px;
+        height: 250px;
+    }
+  }
+
+@media (min-width: 992px) {
+    .imgprod {
+        max-width: 300px;
+        height: 300px;
+    }
+  }

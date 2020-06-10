@@ -1,0 +1,36 @@
+
+
+.img{
+    width: 100%;
+}
+
+@media (min-width: 576px) {
+    .img {
+        max-width: 80%;
+        height: auto;
+    }
+  }
+
+@media (min-width: 768px) {
+    .img {
+        max-width: 60%;
+        height: auto;
+    }
+  }
+
+@media (min-width: 992px) {
+    .img {
+        max-width: 40%;
+        height: auto;
+    }
+  }
+
+#conteudo{
+    padding: 5px;
+}
+
+@media (min-width: 1200px) {
+    #conteudo{
+        padding: 3%;
+    }
+  }
